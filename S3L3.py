@@ -1,14 +1,10 @@
 def calcPerim():
 	print("Calcolo del perimetro di figure geometriche.")
-	print("""
-	1 * Triangolo isoscele
-	2 * Ottagono
-	3 * Rettangolo
-	""")
+	print("1 * Triangolo isoscele")
+	print("2 * Ottagono")
+	print("3 * Rettangolo")
+	scelta = int(input("Scegli da 1 a 3: "))
 	
-	print("Fai una scelta da 1 a 3.")
-	
-	scelta = int(input("* "))
 	if scelta == 1:
 		print("Calcolo del triangolo isoscele.")
 		print("Il triangolo isoscele e' una forma geometrica triangolare che possiede due lati uguali e uno diverso, che chiameremo base.")
